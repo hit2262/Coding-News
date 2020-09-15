@@ -27,3 +27,17 @@
   color: var(--color-home-sky);
   transition: all 300ms;
 }
+
+.author_img {
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+}
+.author_img_avatar {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+.description {
+  text-align: center;
+}
