@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="src/png" href="../src/child-solid.svg" />
+    <title>BG's Coding Story</title>
+    <meta name="coding study materials" content="Algorithms" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/blogs_style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="navbar__logo">
+        <i class="fas fa-child"></i>
+        <a href="#">Coding News</a>
+      </div>
+      <div class="navbar__menu">
+        <ul class="navbar__menu__items">
+          <li class="navbar__menu__item"><a href="../main.html">Home</a></li>
+          <li class="navbar__menu__item"><a href="#footer">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="blogTitle">
+      <h1>GitHub Takes Aim at Open Source Software Vulnerabilities</h1>
+      <h2>
+        GitHub Advanced Security will help automatically spot potential security
+        problems in the world's biggest open source platform.
+      </h2>
+    </div>
+
+    <div class="mainImg">
+      <img class="blogImg" src="../src/article1.PNG" />
+    </div>
+
+    <div class="article">
+      <p>
+        OPEN SOURCE SOFTWARE has the potential to be very secure. Unlike
+        proprietary code that can only be accessed directly by its own
+        developers, anyone can vet open source projects to spot flaws and bugs.
+        In practice, though, being open source is no panacea. Now, code
+        repository GitHub is rolling out new tools for its GitHub Advanced
+        Security suite that will make it easier to root out vulnerabilities in
+        the open source projects managed on its platform.
+      </p>
+      <p>
+        Open source code present a few security challenges. In practice there
+        aren't always enough people with the right expertise looking at it. And
+        open source projects are generally ad hoc; they don't necessarily have a
+        clear process in place for people to submit vulnerabilities, or the
+        resources available for someone to patch them. Even if you surmount
+        those hurdles, you may not know who's actually using your open source
+        code and needs a patch.
+      </p>
+
+      <p>
+        "A lot of what we talk about is there’s a vulnerability, what’s the
+        workflow for that vulnerability, now it gets addressed," says Jamie
+        Cool, vice president of product for security for Microsoft-owned GitHub.
+        "But the nirvana is you don’t introduce the vulnerability to begin with.
+        You stop it from ever showing up. It really seems like this is a problem
+        we should be able to help developers not introduce again and again, but
+        by and large we haven’t succeeded at that as a software industry yet."
+      </p>
+      <p>
+        In September, GitHub acquired the code scanning tool Semmle as part of a
+        plan to help the GitHub community catch common security flaws
+        automatically. Advanced Security includes this service, calling out
+        which line of code contains a potential vulnerability, why it might be
+        exploitable, and how to fix it. In addition to this automatic scanning,
+        Semmle's technology can also be used manually by security researchers.
+        GitHub's goal is to use Advanced Security as both a warning system for
+        developers and a built-in framework for bug hunters to find and report
+        additional issues.
+      </p>
+      <p>
+        GitHub Advanced Security also includes tools that scan user
+        "repositories," essentially the folder where they store their
+        development projects, for secret data like passwords and private keys
+        that shouldn't be exposed and accessible. GitHub works with a number of
+        partners, including Amazon Web Services and Alibaba, to understand the
+        characteristics of their authentication tokens and spot them
+        automatically. The feature has already been available to public
+        repositories for a couple of years, but today GitHub is also adding
+        support to scan private repositories as well. GitHub says that eight
+        percent of active public repositories had a secret exposed in them
+        during the last month alone.
+      </p>
+      <p>
+        With these new tools, GitHub is working to address security issues at a
+        vast scale. Though not all open source projects rely on GitHub, the
+        majority do, and the platform is as much a social network for the
+        community as a development tool. By offering features like Advanced
+        Security, GitHub can create an environment where more projects in the
+        diverse landscape of open source have access to the same types of tools
+        large companies build to improve and safeguard their proprietary code.
+      </p>
+      <p>
+        "The truth is for most maintainers they become maintainers by accident,"
+        says GitHub CEO Nat Friedman. "They make something, it becomes widely
+        used and then suddenly they’re in this position of responsibility with
+        regards to computer security—maybe for banks, for governments. They may
+        not have a background in security and yet we have to make sure that the
+        code they publish is secure. So the challenge is to make it automatic
+        and make it natural."
+      </p>
+      <p>
+        Though catching more security flaws across GitHub projects is crucial,
+        the interconnected nature of software today still poses security
+        challenges. Rather than writing every function and component from
+        scratch, virtually every software product contains a mix of proprietary
+        code and open source components. Your fitness tracker and smartphone,
+        not to mention your car, all contain open source elements from numerous
+        developer projects in addition to the hardware and software created by
+        the name brand.
+      </p>
+      <p>
+        Reporting vulnerabilities and getting the right patches to the right
+        places are still prominent problems, because of these interdependencies.
+        In November, GitHub launched an initiative called Security Lab to help
+        the community keep track of bugs more easily and automate more of the
+        patching process.
+      </p>
+      <p>
+        While GitHub is in a position to make a major impact on how the open
+        source community handles security, Chris Wysopal, chief technology
+        officer of the software auditing firm Veracode, points out that the
+        progress GitHub is making doesn't let the rest of the industry off the
+        hook.
+      </p>
+      <p>
+        “The thing about GitHub is it’s inherently open, so something to improve
+        the landscape of open source doesn’t have to be done by GitHub,” Wysopal
+        says. “There’s nothing stopping a third-party from scanning all of the
+        GitHub repos, looking for vulnerabilities, and sending information to
+        those project maintainers.” That would take a lot of resources. GitHub
+        itself says it costs millions of dollars to provide the free
+        vulnerability scanning and analysis tools in Advanced Security. The
+        company hopes, though, that its own investment can serve as a model for
+        why it pays to prioritize security in open source.
+      </p>
+    </div>
+  </body>
+  <footer id="footer">
+    <h2 class="author">2020 - Byung Lee - All rights reserved</h2>
+    <div class="sns">
+      <a href="https://www.facebook.com/" target="_blank">
+        <i class="fab fa-facebook"> </i>
+      </a>
+      <a href="https://linkedin.com" target="_blank"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a href="https://instagram.com" target="_blank"
+        ><i class="fab fa-instagram-square"></i
+      ></a>
+    </div>
+  </footer>
+</html>
