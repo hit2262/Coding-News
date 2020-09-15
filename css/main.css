@@ -1,0 +1,122 @@
+#home {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  background-color: var(--color-white);
+}
+
+#home.home__img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#news {
+  display: grid;
+  padding: 5vw 5vw 5vw 5vw;
+  grid-template-columns: repeat(3, auto);
+  grid-auto-rows: auto;
+  grid-gap: 15px;
+  text-align: center;
+
+  background-color: var(--color-white);
+}
+
+.news__items {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border: 1px solid var(--color-home);
+}
+
+.news__items__img {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news__items__video {
+  display: flex;
+  width: 450px;
+  height: 300px;
+}
+
+#news h1 {
+  grid-area: title;
+}
+#news h2 {
+  text-align: center;
+}
+#news h3 {
+  margin-left: 10wh;
+  margin-right: 10wh;
+  text-align: center;
+}
+#news button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid coral;
+  cursor: pointer;
+}
+
+@media (min-width: 700px) and (max-width: 1400px) {
+  #news {
+    display: grid;
+    padding: 5vw 5vw 5vw 5vw;
+    grid-template-columns: repeat(2, auto);
+    grid-auto-rows: auto;
+    grid-gap: 15px;
+    align-items: stretch;
+    background-color: var(--color-white);
+  }
+  .news__items__img {
+    display: flex;
+    width: 300px;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .news__items__video {
+    display: flex;
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 699px) {
+  #news {
+    display: grid;
+    padding: 5vw 5vw 5vw 5vw;
+    grid-template-columns: repeat(1, auto);
+    grid-auto-rows: auto;
+    grid-gap: 15px;
+    align-items: stretch;
+    background-color: var(--color-white);
+  }
+  .news__items__img {
+    display: flex;
+    width: 300px;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .news__items__video {
+    display: flex;
+    width: 300px;
+    height: auto;
+  }
+}
